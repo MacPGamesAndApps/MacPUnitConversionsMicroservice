@@ -15,7 +15,7 @@ namespace MacPUnitConversionsMicroservice.Models
         mi_to_km = 3,
         [Display(Name = "Pounds to kilograms")]
         lb_to_kg = 4,
-        [Display(Name = "US Ounces to millimeters")]
+        [Display(Name = "US Ounces to milliliters")]
         USoz_to_ml = 5,
         [Display(Name = "US Gallons to liters")]
         USgal_to_L = 6,
