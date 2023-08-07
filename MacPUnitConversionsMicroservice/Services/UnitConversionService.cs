@@ -46,6 +46,11 @@ namespace MacPUnitConversionsMicroservice.Services
                         conversion = new lb_kg(TO_METRIC);
                         break;
                     }
+                case ConversionTypes.USoz_to_ml:
+                    {
+                        conversion = new USoz_mL(TO_METRIC);
+                        break;
+                    }
                 case ConversionTypes.USgal_to_L:
                     {
                         conversion = new USgal_L(TO_METRIC);
@@ -84,6 +89,11 @@ namespace MacPUnitConversionsMicroservice.Services
                 case ConversionTypes.kg_to_lb:
                     {
                         conversion = new lb_kg(TO_IMPERIAL);
+                        break;
+                    }
+                case ConversionTypes.Ml_to_USoz:
+                    {
+                        conversion = new USoz_mL(TO_IMPERIAL);
                         break;
                     }
                 case ConversionTypes.L_to_USgal:
