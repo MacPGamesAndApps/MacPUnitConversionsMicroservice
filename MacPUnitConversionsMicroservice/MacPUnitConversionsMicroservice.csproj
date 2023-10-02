@@ -11,4 +11,10 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="MacPEnumHelpers">
+      <HintPath>..\..\..\Components\MacPEnumHelpers\MacPEnumHelpers\bin\Release\net7.0\MacPEnumHelpers.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
